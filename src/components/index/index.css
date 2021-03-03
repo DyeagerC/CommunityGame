@@ -1,0 +1,13 @@
+.index{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: max-content;
+}
+
+.background_black{
+    background-color: #2A2A2A;
+}
+
+.cont_index{
+    background-color: #F3F3F3;
+}
