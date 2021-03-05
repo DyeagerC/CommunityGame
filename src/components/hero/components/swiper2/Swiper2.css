@@ -1,0 +1,40 @@
+.container2{
+    width: 100%;
+    height: 162px;
+    background-color: black;
+}
+.slide2{
+    
+    color: black;
+}
+
+.img_slide2{
+    width: 100%;
+}
+
+.cont_destacados{
+    display: grid;
+    grid-template-columns: 34% 33.3% 33.3%;
+    grid-template-rows:162px;
+    gap: 5px;
+}
+
+.overflow{
+    overflow: hidden !important;
+    position: relative;
+    height: 160px;
+}
+.text_slide2{
+    position: absolute;
+    color: white;
+    top: 40%;
+    padding-left: 10px;
+}
+.noticia_destacada{
+    background-color: salmon;
+    border: 1px solid white;
+    
+}
+.img_slide2:hover{
+    transform: scale(1.8);
+}

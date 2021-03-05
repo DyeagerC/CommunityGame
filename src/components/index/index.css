@@ -1,13 +1,14 @@
 .index{
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: max-content;
 }
 
 .background_black{
-    background-color: #2A2A2A;
+    background-image: linear-gradient(190deg, #4e5653 0, #474a48 16.67%, #3c393b 33.33%, #2c242b 50%, #1c101d 66.67%, #0d0014 83.33%, #00000c 100%);
 }
 
 .cont_index{
     background-color: #F3F3F3;
+    border: 2px solid #581845 ;
 }
